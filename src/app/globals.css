@@ -1,21 +1,13 @@
 @import "tailwindcss";
 
-
 :root {
-  --primary: #4F46E5;
-  --primary-hover: #4338CA;
-  --background: #F9FAFB;
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
   --card-bg: #312f2f;
   --text: #111827;
-  --secondary-text: #6B7280;
-  --border: #E5E7EB;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --border: #e5e7eb;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 body {
